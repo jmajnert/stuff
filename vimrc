@@ -4,10 +4,10 @@ set smartindent
 set incsearch
 set hlsearch
 set bg=dark
-set expandtab
-set sw=2
-set ts=2
-set softtabstop=2
+set noexpandtab
+set sw=4
+set ts=4
+"set softtabstop=4
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 set history=50
