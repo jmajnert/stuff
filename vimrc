@@ -4,10 +4,10 @@ set smartindent
 set incsearch
 set hlsearch
 set bg=dark
-set noexpandtab
-set sw=4
-set ts=4
-"set softtabstop=4
+set expandtab
+set sw=2
+set ts=2
+set softtabstop=-1
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 set history=50
@@ -17,6 +17,7 @@ set backspace=indent,eol,start
 set showcmd
 set ttyfast
 syntax on
+colorscheme ron
 set colorcolumn=81
 
 set backupdir=~/.vim/backup//
